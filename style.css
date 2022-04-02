@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+* {margin: 0; padding: 0;}
+
+
+/* Desktop */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    cursor: default;
+    user-select: none;
+}
+
+p{
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+}
+
+#factory{
+    position: fixed;
+    width: 400px;
+    top: 38%;
+    left: 70%;
+}
+
+#logo{
+    position: fixed;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+#info{
+    position: fixed;
+    left: 10%;
+    top: 48%;
+    line-height: 50px;
+    font-size: 25;
+}
+
+#bigtext{
+    position: fixed;
+    left: 10%;
+    top: 35%;
+    font-size: 100;
+}
+
+#credits{
+    position: fixed;
+    left: 10%;
+    top: 62%;
+    font-size: 20;
+    color: rgb(95, 95, 95);
+}
+
+#fuenfvierdrei{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 20;
+    color: rgb(35, 35, 35);
+}
+
+/* Tablet horizontal */
+
+@media screen and (max-width: 1100px){
+
+    #factory{
+        width: 200px;
+    }
+
+    #logo{
+        width: 150px;
+    }
+
+    #info{
+        font-size: 12;
+        line-height: 30px;
+    }
+
+    #bigtext{
+        font-size: 60;
+    }
+
+    #credits{
+        font-size: 10;
+    }
+
+    #fuenfvierdrei{
+        font-size: 10;
+    }
+
+}
+
+/* Tablet vertical */
+
+@media screen and (max-width: 800px){
+
+    #factory{
+        left: 65%;
+        top: 52%;
+    }
+
+    #logo{
+        transform: none;
+        top: 35%;
+        left: 68%;
+    }
+
+}
+
+/* Mobile */
+
+@media screen and (max-width: 600px){
+
+    #factory{
+        width: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 75%;
+    }
+
+    #logo{
+        width: 100px;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
