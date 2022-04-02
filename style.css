@@ -22,14 +22,14 @@ p{
 
 #factory{
     position: fixed;
-    width: 400px;
+    width: 300px;
     top: 38%;
     left: 70%;
 }
 
 #logo{
     position: fixed;
-    width: 300px;
+    width: 200px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -41,21 +41,21 @@ p{
     left: 10%;
     top: 48%;
     line-height: 50px;
-    font-size: 25;
+    font-size: 20;
 }
 
 #bigtext{
     position: fixed;
     left: 10%;
     top: 35%;
-    font-size: 100;
+    font-size: 80;
 }
 
 #credits{
     position: fixed;
     left: 10%;
     top: 62%;
-    font-size: 20;
+    font-size: 15;
     color: rgb(95, 95, 95);
 }
 
@@ -63,7 +63,7 @@ p{
     position: fixed;
     right: 20px;
     bottom: 20px;
-    font-size: 20;
+    font-size: 15;
     color: rgb(35, 35, 35);
 }
 
